@@ -21,6 +21,7 @@
 		00BE66CE187E335A001537B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BE66B0187E3359001537B8 /* UIKit.framework */; };
 		00BE66D6187E335A001537B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00BE66D4187E335A001537B8 /* InfoPlist.strings */; };
 		00BE66D8187E335A001537B8 /* Ex1_1_1_MVC_tableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE66D7187E335A001537B8 /* Ex1_1_1_MVC_tableViewTests.m */; };
+		00BE66E3187E337F001537B8 /* TableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE66E2187E337F001537B8 /* TableData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00BE66D3187E335A001537B8 /* Ex1.1.1_MVC_tableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ex1.1.1_MVC_tableViewTests-Info.plist"; sourceTree = "<group>"; };
 		00BE66D5187E335A001537B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00BE66D7187E335A001537B8 /* Ex1_1_1_MVC_tableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex1_1_1_MVC_tableViewTests.m; sourceTree = "<group>"; };
+		00BE66E1187E337F001537B8 /* TableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableData.h; path = ../TableData.h; sourceTree = "<group>"; };
+		00BE66E2187E337F001537B8 /* TableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableData.m; path = ../TableData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		00BE66B2187E3359001537B8 /* Ex1.1.1_MVC_tableView */ = {
 			isa = PBXGroup;
 			children = (
+				00BE66E1187E337F001537B8 /* TableData.h */,
+				00BE66E2187E337F001537B8 /* TableData.m */,
 				00BE66BB187E335A001537B8 /* AppDelegate.h */,
 				00BE66BC187E335A001537B8 /* AppDelegate.m */,
 				00BE66BE187E335A001537B8 /* Main.storyboard */,
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BE66E3187E337F001537B8 /* TableData.m in Sources */,
 				00BE66C3187E335A001537B8 /* ViewController.m in Sources */,
 				00BE66BD187E335A001537B8 /* AppDelegate.m in Sources */,
 				00BE66B9187E335A001537B8 /* main.m in Sources */,
